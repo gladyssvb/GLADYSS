@@ -66,5 +66,64 @@ header input
 }
 #secc01art02
 {
+	margin-left: 50px; /*para queel texto we can offer se mueva a la derecha*/
 	width: 30%;
+}
+#secc01art02 ul
+{
+	list-style: none;
+}
+#secc01art02 ul li:before /*antes del texto*/ 
+{
+	content: "• ";
+	color: #FF0099;
+}
+#segundaseccion article
+{
+	text-align: right; /*que se haga a la derecha el numero de tel*/
+	padding-right:122px;
+}
+#terceraseccion article
+{
+	display: inline-block; /*para que los articulos se pongan en modo horizontal*/
+	vertical-align: top; /*para que el texto se alinea hacia arriba*/
+	width: 23%; /*lo que va abarcar cada article*/
+
+}
+#terceraseccion article img 
+{
+	/*Alineacion vertical del texto quede alineado en medio de la imagen*/
+	vertical-align: middle;	
+}
+.colorrosa
+{
+	color: #FF0099;  /*IMGR.COM ESPARA EXTRAER EL CODIGO DEL COLOR*/
+}
+.comuntitulo
+{
+	font-size: 1.5em; /*tamaño del texto*/ 
+
+}
+.rosagrande   /*. cuando es una classe, y n #cuando es id*/
+{
+	font-size: 3.5em;
+}
+.nito  /*negritas*/
+{
+font-size: bold;
+}
+.rosamediano
+{
+	font-size: 2em;
+}
+#terceraseccion article input
+{
+	border-radius: 5px;
+}
+.distintotitulo
+{
+	font-size: 1.3em;
+	vertical-align: middle;	
+	
+
 }
