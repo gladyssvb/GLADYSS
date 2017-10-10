@@ -1,0 +1,25 @@
+body
+{
+	font-size: 16px; /*1em*/
+	margin: 0 auto; /*centramos body, 0 para quitar margenes de arriba y auto  de derecha a izquierda se ajuste solo*/
+	max-width: 1078px; /*empresa-cliente*/
+	min-width: 1078px;
+}
+header nav 
+{
+	background: orange;
+	border-radius: 5px;
+	color: white;
+
+}
+header nav ul li 
+{
+	/*border-bottom: 1px solid gray; /* pone el borde a caja*/
+	/*color: grey; /*grey*/
+	display: inline-block;
+	font-size: 1.2em;
+	margin-right: 10px;
+	padding-left: 10px;
+	/*text-decoration: underline*/
+}
+header
