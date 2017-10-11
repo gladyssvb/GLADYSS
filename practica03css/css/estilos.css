@@ -1,15 +1,20 @@
 body
 {
-	font-size: 16px; /*1em*/
+	font-size: 15px; /*1em*/
 	margin: 0 auto; /*centramos body, 0 para quitar margenes de arriba y auto  de derecha a izquierda se ajuste solo*/
 	max-width: 1078px; /*empresa-cliente*/
 	min-width: 1078px;
 }
 header nav 
 {
-	background: orange;
+	
 	border-radius: 5px;
 	color: white;
+	background: orange;
+	background:linear-gradient(white,orange);
+	background:-o-linear-gradient(white,orange);/*opera*/
+	background:-webkit-linear-gradient(white,orange);/*safari*/
+	background:-moz-linear-gradient(white,orange);/*para todos*/
 
 }
 header nav ul li 

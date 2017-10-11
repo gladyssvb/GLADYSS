@@ -1,0 +1,55 @@
+article
+{
+	border-radius: 5px; /*para qitar esquinas*/
+	border:1px solid blue;
+	height: 50px;
+	margin-top: 10px; /*para que se separen las cajas*/
+	width: 150px;
+	
+}
+#uno 
+{
+	/*si no soporta gradientes*/
+	background: red;
+	
+	background:-o-linear-gradient(red,yellow);/*opera*/
+	background:-webkit-inear-gradient(red,yellow);/*safari*/
+	background:-moz-linear-gradient(red,yellow);/*para todos*/
+	background:linear-gradient(red,yellow);
+}
+#dos
+{
+	/*si no soporta gradientes*/
+	background: red;
+	background:linear-gradient(to left,red,yellow);
+	background:-o-linear-gradient(to left,red,yellow);/*opera*/
+	background:-webkit-linear-gradient(to left, red,yellow);/*safari*/
+	background:-moz-linear-gradient(to left,red,yellow);/*para todos*/
+}
+#tres
+{
+	/*si no soporta gradientes*/
+	background: red;
+	background:linear-gradient(to right,red,yellow);
+	background:-o-linear-gradient(to right,red,yellow);/*opera*/
+	background:-webkit-linear-gradient(to right,red,yellow);/*safari*/
+	background:-moz-linear-gradient(to right,red,yellow);/*para todos*/
+}
+#cuatro
+{
+	/*si no soporta gradientes*/
+	background: red;
+	background:linear-gradient(to right bottom,red,yellow);
+	background:-o-linear-gradient(to right bottom,red,yellow);/*opera*/
+	background:-webkit-linear-gradient(to right bottom,red,yellow);/*safari*/
+	background:-moz-linear-gradient(to right bottom,red,yellow);/*para todos*/
+}
+#cinco
+{
+	/*si no soporta gradientes*/
+	background: red;
+	background:linear-gradient(rgba(2550,0,0),rgba(255,255,0,1));
+	background:-o-linear-gradient(to left bottom,red,yellow);/*opera*/
+	background:-webkit-linear-gradient(to left bottom, red,yellow);/*safari*/
+	background:-moz-linear-gradient(to left bottom,red,yellow);/*para todos*/
+}
