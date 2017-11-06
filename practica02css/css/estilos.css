@@ -4,6 +4,7 @@ body
 	margin: 0 auto; /*centramos body, 0 para quitar margenes de arriba y auto  de derecha a izquierda se ajuste solo*/
 	max-width: 1078px; /*empresa-cliente*/
 	min-width: 1078px;
+	background: black;
 }
 header nav 
 {
